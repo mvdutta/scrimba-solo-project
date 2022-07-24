@@ -5,17 +5,20 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Edu SA Beginner', cursive;
+  color: rgb(35, 25, 25);
+  background-color: #f0eae9;
+
 
 }
 .container {
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
 }
 
 .hero-img {
-    background-image: url("https://cdn.pixabay.com/photo/2015/09/11/21/03/city-936398_960_720.jpg");
-    background-position: center;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/11/21/03/city-936398_960_720.jpg"); 
     height: 343px;
     width: 730px;
     background-repeat: no-repeat;
@@ -23,13 +26,16 @@ body {
     display: inline-block;
 }
 .hero-text {
-color: white;
+color: rgb(255, 251, 251);
 text-align: center;
 }
 
 #hero-header {
-background-color: #BA5387;
-margin: 25px 200px 0px 200px;
+margin-top: 25px;
+}
+
+.hero-subheader {
+  font-size: 25px;
 }
 
 
@@ -43,6 +49,10 @@ margin: 25px 200px 0px 200px;
 
 #activities-header {
   margin-top: 50px;
+  font-size: 22px;
+}
+.activities-subheadings {
+  font-size: 18px;
 }
 img {
   width: 115px;
@@ -53,13 +63,15 @@ img {
   width: 30%;
 }
 
+p {
+  font-size: 17px;
+}
 .guide-container {
-  background-color:rgb(255, 243, 240);
   width: 730px;
   height: 394px;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 
 }
 .guide-section {
@@ -76,17 +88,19 @@ img {
   border-radius: 10px;
 }
 
-.guide-text {
-  font-style: italic;
+.guide-text { 
   margin: 14px 11px 26px 7px;
 }
+
 #guide-heading {
   margin-top: 50px;
+  font-size: 22px;
 }
 #guide-img {
   border-radius: 10px;
   width: 180px;
   height: 200px;
   margin: 23px 7px 23px 13px;
+  border: 1px solid rgb(3, 82, 77);
 }
 
