@@ -38,6 +38,7 @@ text-align: center;
 background-color: grey; 
 }
 
+
 .holder {
   display: flex;
   justify-content: space-evenly;
@@ -46,6 +47,9 @@ background-color: grey;
   size: 16px;
 }
 
+#activities-header {
+  margin-top: 50px;
+}
 img {
   width: 100px;
   height: 100px;
@@ -53,5 +57,42 @@ img {
 }
 .card {
   width: 30%;
+}
+
+.guide-container {
+  background-color:rgb(255, 243, 240);
+  width: 730px;
+  height: 394px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+
+}
+.guide-section {
+  width: 400px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8e2dc;
+  box-shadow: 0px 2px 4px #1D3557;
+  border-radius: 10px;
+}
+
+.guide-text {
+  font-style: italic;
+  margin: 14px 11px 26px 7px;
+}
+#guide-heading {
+  margin-top: 50px;
+}
+#guide-img {
+  border-radius: 10px;
+  width: 180px;
+  height: 200px;
+  margin: 23px 7px 23px 13px;
 }
 
