@@ -53,9 +53,9 @@ margin-top: 25px;
 .activities-subheadings {
   font-size: 18px;
 }
-img {
-  width: 115px;
-  height: 115px;
+.main-img {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 .card {
@@ -75,10 +75,7 @@ p {
 .guide-section {
   width: 400px;
   height: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 0px;
+  margin: 25px auto 0 auto;
   display: flex;
   justify-content: space-around;
   background-color: #d8e2dc;
@@ -109,5 +106,14 @@ p {
   font-size: 22px;
   margin: 0 0 50px 0
 }
+#orangecat-image {
+  width: 1.5%;
+  margin: 0; 
+}
+
+.footer-paragraph {
+  margin-top: 0;
+}
+
 
 
